@@ -1,0 +1,27 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "es2015",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": false,
+    "target": "es6",
+    "outDir": "wwwroot/js",
+    "rootDir": "wwwroot/ts",
+    "types": [ "./node_modules/@microsoft/signalr/dist/esm/index" ]
+  },
+  "include": [
+    "wwwroot/ts/**/*.ts"
+  ],
+  "exclude": [
+    "wwwroot/css",
+    "wwwroot/js",
+    "wwwroot/lib",
+    "wwwroot/types",
+    "node_modules"
+  ]
+}
